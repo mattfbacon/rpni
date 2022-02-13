@@ -14,9 +14,9 @@ Numbers are stored as `f64` rather than arbitrary-precision integers. This is si
 - `V`: Prints the whole stack including indices. Index `0` represents the top of the stack.
 - `p`: Same as `v` but pops the value from the stack before printing it.
 - `+`, `-`, `*`, `/`: Exactly what you expect. The first operand is popped first.
-- `%`: Pops `a`, then pops `b`, then pushes `b % a`.
+- `%`: Pops `a`, then pops `b`, then pushes `a % b`.
 - `"`: A combination of `/` and `%`. Same argument order as `%`, but pushes the quotient before pushing the remainder aka modulus.
-- `^`: Pops `a`, then pops `b`, then pushes `b ^ a`.
+- `^`: Pops `a`, then pops `b`, then pushes `a ^ b`.
 - `~`: Pops `a`, then pushes `-a`. In other words, negates the value at the top of the stack.
 - `c`: Clears the stack.
 - `d`: Pops `a`, then pushes `a` twice.

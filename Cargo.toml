@@ -9,7 +9,7 @@ keywords = ["calculator", "utility", "cli", "rpn"]
 license = "AGPL-3.0-or-later"
 readme = "README.md"
 repository = "https://github.com/mattfbacon/rpni"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies]
 anyhow = "1"
