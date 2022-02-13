@@ -1,6 +1,5 @@
 # RPN calculator
 
-![Code size](https://img.shields.io/tokei/lines/github/mattfbacon/rpni?style=flat-square)
 ![License](https://img.shields.io/static/v1?label=License&message=AGPL-3.0-or-later&color=important&style=flat-square)
 ![Crates.io Version](https://img.shields.io/crates/v/rpni?style=flat-square)
 ![Dependencies](https://img.shields.io/librariesio/release/cargo/rpni?style=flat-square)
