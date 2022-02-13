@@ -1,0 +1,16 @@
+[package]
+name = "rpni"
+authors = ["Matt Fellenz <matt@felle.nz>"]
+categories = ["command-line-utilities", "mathematics"]
+description = "A basic command-line RPN calculator"
+edition = "2021"
+homepage = "crates.io/crates/rpni"
+keywords = ["calculator", "utility", "cli", "rpn"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/mattfbacon/rpni"
+version = "0.1.0"
+
+[dependencies]
+anyhow = "1"
+utf8-chars = "1"
